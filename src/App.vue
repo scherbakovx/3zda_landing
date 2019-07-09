@@ -1,28 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <LandingPage msg="Здесь будет все про того самого Пиздабота (http://tele.click/pizda_da_bot), а пока подпишитесь на меня в Твиторе (https://twitter.com/scherbakovx) или напишите мне в Телегу (http://t.me/@scherbakovx)" />
+    <LandingPage msg2="Это, конечно, лучший сайт в Интернете, спасибо, что надонатили мне денег на pizda.bot!" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import LandingPage from "./components/LandingPage.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    LandingPage
   }
 };
 </script>
-
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
